@@ -3,7 +3,7 @@
     The api gives data but not coordinates. I couldn't mine them dinamicaly, aemet provide this data, but
     I needed to copy the html code to 36 files -they just show you items in groups of 30-.
     I include the files and the method, but for further asks, I have passed all the stations with pluviometric
-    data to a static array, once I knew the stations with pluviometric data after running the script.
+    data to a sqlite3 database, once I knew the stations with pluviometric data after running the script.
 
     I have also added a variable firstyear. you can set it to 2018 if you want to update the data etc...
 
@@ -20,7 +20,7 @@
 
     This is an example url if you wish to be certain data are correctly taken from the api.You can change just
     the date (remember the maximum the api shows is 31 days on a single json) and the code of the station (before /?)
-    and the url of the json you receive opens the wished data:
+    example:
     https://opendata.aemet.es/opendata/api/valores/climatologicos/diarios/datos/fechaini/2018-08-01T00:00:00UTC/fechafin/2018-08-04T23:59:59UTC/estacion/1387E/?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtaW11cm9zYWJhdGVyQGdtYWlsLmNvbSIsImp0aSI6IjY4YTNhOTgwLTcyYzQtNGY3NS05MDJiLTIyYWU5MDk0YTcxNCIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNTMzNzI2ODQ5LCJ1c2VySWQiOiI2OGEzYTk4MC03MmM0LTRmNzUtOTAyYi0yMmFlOTA5NGE3MTQiLCJyb2xlIjoiIn0.jF0n2Y_LS_VLVTEGUeJjduYg2bFFEF5jeAFuYUf9LlY
 """
 import glob
