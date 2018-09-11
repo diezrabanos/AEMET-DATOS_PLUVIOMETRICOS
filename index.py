@@ -21,7 +21,7 @@
     This is an example url if you wish to be certain data are correctly taken from the api.You can change just
     the date (remember the maximum the api shows is 31 days on a single json) and the code of the station (before /?)
     example:
-    https://opendata.aemet.es/opendata/api/valores/climatologicos/diarios/datos/fechaini/2018-08-01T00:00:00UTC/fechafin/2018-08-04T23:59:59UTC/estacion/1387E/?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtaW11cm9zYWJhdGVyQGdtYWlsLmNvbSIsImp0aSI6IjY4YTNhOTgwLTcyYzQtNGY3NS05MDJiLTIyYWU5MDk0YTcxNCIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNTMzNzI2ODQ5LCJ1c2VySWQiOiI2OGEzYTk4MC03MmM0LTRmNzUtOTAyYi0yMmFlOTA5NGE3MTQiLCJyb2xlIjoiIn0.jF0n2Y_LS_VLVTEGUeJjduYg2bFFEF5jeAFuYUf9LlY
+    https://opendata.aemet.es/opendata/api/valores/climatologicos/diarios/datos/fechaini/2018-08-01T00:00:00UTC/fechafin/2018-08-04T23:59:59UTC/estacion/1387E/?api_key=[ENTER YOUR API]
 """
 import glob
 from bs4 import BeautifulSoup
