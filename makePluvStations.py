@@ -8,7 +8,7 @@ class DataPluvStationsSpain():
     path = '/home/manu/Escritorio/AEMET/'
     keys = []
     def __init__(self):
-        """This is a file I used to generate the database and to get all the json keys, 
+        """This is a file I used to generate the database and to get all the json keys,
         but it is no needed to get the data once I provide the database with coordinates"""
         self.giveMeKeys()
     def giveMeKeys(self):
@@ -25,7 +25,7 @@ class DataPluvStationsSpain():
 
     def giveMeTrueStations(self):
         namePluviometricStations = []
-        root, dirs, files = os.walk(self.path+"JSON_STATIONS_COPY/").next()
+        root, dirs, files = os.walk(self.path+"JSON_STATIONS/").next()
         for directory in dirs:
             posLimit = directory.index('_')
             nameStation = directory[0:posLimit]
