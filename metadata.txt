@@ -1,0 +1,128 @@
+{
+  "unity_generadora": "Servicio del Banco de Datos Nacional de Climatología",
+  "periodicidad": "1 vez al día, con un retardo de 4 días",
+  "description": "Climatologías diarías",
+  "formato": "application/json",
+  "copyright": "© AEMET. Autorizado el uso of the información y su reproducción citando a AEMET como autora of the misma.",
+  "notaLegal": "http://www.aemet.es/es/nota_legal",
+  "campos": [
+  	{"id":"date",
+	"description": "date (YYYY-MM-DD)",
+	"data_type": "string",
+
+    },
+	{"id":"code",
+	"description": "climatologic code",
+	"data_type": "string",
+
+
+    },
+	{"id": "name",
+	"description": "name of the station",
+	"data_type": "string",
+
+    },
+	{"id": "province",
+	"description": "province of the station",
+	"data_type": "string",
+
+    },
+	{"id": "altitude",
+	"description": "altitude of the station (sealevel)",
+	"data_type": "float",
+	"unity": "m",
+
+    },
+	{"id":"tmed",
+	"description": "dayly average temperature",
+	"data_type": "float",
+	"unity": "celsius degrees",
+
+    },
+	{"id":"prec",
+        "description": "Daily precipitation from 07h to 07h",
+        "data_type": "float",
+        "unity": "mm",
+
+    },
+        {"id":"tmin",
+        "description": "lower dayly temperature",
+        "data_type": "float",
+        "unity": "ºC",
+
+    },
+        {"id":"hourtmin",
+        "description": "hour and minute of the lower temperature",
+        "data_type": "string",
+	"unity": "UTC",
+
+    },
+        {"id":"tmax",
+        "description": "higher dayly temperature",
+        "data_type": "float",
+        "unity": "ºC",
+
+    },
+        {"id":"hourtmax",
+        "description": "hour and minute of the higher temperature",
+        "data_type": "string",
+	"unity": "UTC",
+
+    },
+        {"id":"dir",
+        "description": "Direction of the higher wind gust",
+        "data_type": "float",
+        "unity": "Degrees(360)",
+
+    },
+        {"id":"avgspeed",
+        "description": "Average wind speed",
+        "data_type": "float",
+        "unity": "m/s",
+
+    },
+        {"id":"gust",
+        "description": "higher wind gust",
+        "data_type": "float",
+        "unity": "m/s",
+
+    },
+        {"id":"hourgust",
+        "description": "hour and minute of the higher wind gust",
+        "data_type": "float",
+	"unity": "UTC",
+
+    },
+        {"id":"sun",
+        "description": "Hours of insolation",
+        "data_type": "float",
+	"unity": "hours",
+
+    },
+        {"id":"presmax",
+        "description": "Higher presure of the station",
+        "data_type": "float",
+	"unity": "hPa",
+
+    },
+        {"id":"hourpresmax",
+        "description": "hour of the higher presure of the station(rounded)",
+        "data_type": "float",
+	"unity": "hour",
+
+    },
+        {"id":"presmin",
+        "description": "Lower presure of the station",
+        "data_type": "float",
+	"unity": "hPa",
+
+    },
+        {"id":"hourpresmin",
+        "description": "hour of the lower presure of the station(rounded)",
+        "data_type": "float",
+	"unity": "hour",
+
+    }
+  ]
+
+}
