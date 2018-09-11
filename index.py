@@ -39,7 +39,7 @@ class DataMeteorologySpain():
     """change for your path"""
     path = '/home/manu/Escritorio/AEMET/'
     def __init__(self):
-        """timesleep is setted to 60 seconds when every exception happens (there is a check each 50 petitions,
+        """timesleep is setted to 60 seconds when every exception happens (there is a limitation each 50 petitions,
         I tried 30s and 45s and crashes)"""
         finalStations = self.giveMeStations()
         """you can relaunch it from the next station to 160 changing the range -eg range(67,160)"""
