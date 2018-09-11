@@ -7,7 +7,7 @@
 
     I have also added a variable firstyear. you can set it to 2018 if you want to update the data etc...
 
-    So init method uses this static array with:
+    So init method gets data from that database:
     -name of the station
     -code of the station
     -latitude
@@ -15,8 +15,8 @@
     -first year available
     -last year available
 
-    Then that array is passed as parameter and controls the flux of the monthly urls asked to the api
-    on generateJSON method
+    Then the resulting array is passed as parameter to the generateJSON method and controls the flux of the monthly urls asked 
+    to the api.
 
     This is an example url if you wish to be certain data are correctly taken from the api.You can change just
     the date (remember the maximum the api shows is 31 days on a single json) and the code of the station (before /?)
@@ -42,7 +42,7 @@ class DataMeteorologySpain():
         """timesleep is setted to 60 seconds when every exception happens (there is a check each 50 petitions,
         I tried 30s and 45s and crashes)"""
         finalStations = self.giveMeStations()
-        """you can relaunch it from the next station to 160 changing the range"""
+        """you can relaunch it from the next station to 160 changing the range -eg range(67,160)"""
         for io in range (0,160):
             print ('Station: ' + str(io+1) + '/160')
             self.generateJSON(finalStations[io])
