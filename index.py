@@ -35,7 +35,7 @@ class DataMeteorologySpain():
     """You can relaunch it from 2018 next month to fill data
     of the last year -it would override 2018.json file with all
     available 2018 data """
-    firstyear = 2018
+    firstyear = 1812
     """change for your path"""
     path = '/home/manu/Escritorio/AEMET/'
     def __init__(self):
