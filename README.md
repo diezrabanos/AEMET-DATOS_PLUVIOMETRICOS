@@ -9,8 +9,11 @@ Se incluye tres carpetas comprimidas con los datos hasta el 5/09/2018.
 ¡IMPORTANTE!-->Para posteriores usos se debe descomprimir los archivos zip e incluir TODAS las carpetas en la carpeta JSON_STATIONS.
 
 Requerimientos: 
+
 Python2
+
 Instalador de paquetes pip --> apt-get install python-pip
+
 beautifullsoup4            --> pip install beautifulsoup4  
 
 *****************************************
@@ -24,6 +27,9 @@ Three zip files with the data until 9/5/2018 are included.
 IMPORTANT!-->For further uses you need to unzip the 160 folders and put them together on JSON_STATIONS folder.
 
 Required:
+
 Python2
+
 Package manager pip --> apt-get install python-pip
+
 beautifullsoup4     --> pip install beautifulsoup4  
