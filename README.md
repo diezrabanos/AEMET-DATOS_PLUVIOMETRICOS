@@ -8,7 +8,7 @@ Se incluye tres carpetas comprimidas con los datos hasta el 5/09/2018.
 
 ¡IMPORTANTE!-->Para posteriores usos se debe descomprimir los archivos zip e incluir TODAS las carpetas en la carpeta JSON_STATIONS. Entonces lanzas con la variable lastyear en 2018 y todos los archivos 2018.json se sobreescriben -aunque iré actualizando para que se pueda simplemente descargar los datos en json de los zips sin hacer peticiones a AEMET-.
 
-Cualquier sugerencia corrección de código es bienvenida.
+Cualquier sugerencia o corrección de código es bienvenida.
 
 Requerimientos: 
 
