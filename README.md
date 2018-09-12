@@ -1,6 +1,6 @@
 # AEMET-DATOS_PLUVIOMETRICOS
 
-Script python2 para recolectar los datos de las 160 estaciones con datos pluviométricos de la Agencia Estatal de Meteorología (AEMET) de Espàña, en su plataforma AEMET Open Data (https://opendata.aemet.es/centrodedescargas/inicio)
+Script python2 para recolectar los datos de las 160 estaciones con datos climáticos (temperatura, precipitación y presión)  de la Agencia Estatal de Meteorología (AEMET) de Espàña, en su plataforma AEMET Open Data (https://opendata.aemet.es/centrodedescargas/inicio)
 Es necesaria una api key que se puede obtener de forma gratuita registrándose en el siguiente enlace: 
 https://opendata.aemet.es/centrodedescargas/altaUsuario
 
