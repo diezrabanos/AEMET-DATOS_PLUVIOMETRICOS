@@ -6,7 +6,7 @@ https://opendata.aemet.es/centrodedescargas/altaUsuario
 
 Se incluye tres carpetas comprimidas con los datos hasta el 5/09/2018.
 
-¡IMPORTANTE!-->Para posteriores usos se debe descomprimir los archivos zip e incluir TODAS las carpetas en la carpeta JSON_STATIONS.
+¡IMPORTANTE!-->Para posteriores usos se debe descomprimir los archivos zip e incluir TODAS las carpetas en la carpeta JSON_STATIONS. Entonces lanzas con la variable lastyear en 2018 y todos los archivos 2018.json se sobreescriben. 
 
 Requerimientos: 
 
@@ -24,7 +24,7 @@ https://opendata.aemet.es/centrodedescargas/altaUsuario
 
 Three zip files with the data until 9/5/2018 are included.
 
-IMPORTANT!-->For further uses you need to unzip the 160 folders and put them together on JSON_STATIONS folder.
+IMPORTANT!-->For further uses you need to unzip the 160 folders and put them together on JSON_STATIONS folder. Then you can relaunch it with variable lastyear setted at current year and the last year json file of each station will override with all the monthly available data -I will upgrade the zip files with the available data from time to time anyhow, so just download....-.
 
 Required:
 
