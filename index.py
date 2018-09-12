@@ -93,7 +93,6 @@ class DataMeteorologySpain():
                     variablepath = '-12-01T00:00:00UTC/fechafin/'+str(year)+'-12-31T23:59:59UTC/estacion/'
                 variable = station + '/?'
                 url = path+str(year)+variablepath+variable+api
-                print (url)
                 try:
                     for line in urllib2.urlopen(url):
                         if 'datos' in line and 'metadatos' not in line and 'satisfagan' not in line:
